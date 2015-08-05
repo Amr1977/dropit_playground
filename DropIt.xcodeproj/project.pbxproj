@@ -14,6 +14,7 @@
 		07308D1C1B70FF43003433D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07308D1B1B70FF43003433D8 /* Images.xcassets */; };
 		07308D1F1B70FF43003433D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07308D1D1B70FF43003433D8 /* LaunchScreen.xib */; };
 		07308D2B1B70FF44003433D8 /* DropItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07308D2A1B70FF44003433D8 /* DropItTests.m */; };
+		07308D361B71158A003433D8 /* BDBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 07308D351B71158A003433D8 /* BDBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		07308D241B70FF44003433D8 /* DropItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07308D291B70FF44003433D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07308D2A1B70FF44003433D8 /* DropItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropItTests.m; sourceTree = "<group>"; };
+		07308D341B71158A003433D8 /* BDBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBox.h; sourceTree = "<group>"; };
+		07308D351B71158A003433D8 /* BDBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				07308D1B1B70FF43003433D8 /* Images.xcassets */,
 				07308D1D1B70FF43003433D8 /* LaunchScreen.xib */,
 				07308D0E1B70FF43003433D8 /* Supporting Files */,
+				07308D341B71158A003433D8 /* BDBox.h */,
+				07308D351B71158A003433D8 /* BDBox.m */,
 			);
 			path = DropIt;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07308D171B70FF43003433D8 /* ViewController.m in Sources */,
+				07308D361B71158A003433D8 /* BDBox.m in Sources */,
 				07308D141B70FF43003433D8 /* AppDelegate.m in Sources */,
 				07308D111B70FF43003433D8 /* main.m in Sources */,
 			);
@@ -344,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DropIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DropIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
